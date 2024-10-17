@@ -1,1 +1,61 @@
-body {    font-family: Arial, sans-serif;    background-color: #000;    color: #fdfc0d;    margin: 0;    padding: 0;}header {    text-align: center;    padding: 20px;}h1 {    font-size: 2.5em;}h2 {    border-bottom: 2px solid #fdfc0d;    padding-bottom: 10px;}.services {    display: flex;    justify-content: space-around;    flex-wrap: wrap;    padding: 20px;}.service-column {    background-color: #333;    border: 2px solid #fdfc0d;    border-radius: 10px;    margin: 10px;    padding: 20px;    width: 22%;    text-align: center;}.service-column img {    max-width: 100%;    height: auto;}.contact {    text-align: center;    padding: 20px;}footer {    text-align: center;    padding: 10px;    background-color: #444;}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-column {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 22%;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.service-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.map {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
