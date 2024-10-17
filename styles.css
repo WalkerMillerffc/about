@@ -52,3 +52,15 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+
+.map-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona espaço ao redor do mapa */
+}
+
+.map iframe {
+    max-width: 100%; /* Para responsividade */
+    height: auto; /* Ajusta a altura automaticamente */
+}
